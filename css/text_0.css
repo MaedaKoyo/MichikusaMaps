@@ -1,0 +1,231 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	line-height: 1.6;
+	color: #444;
+}
+
+p {
+	font-size: 200%;
+	margin: 0 0 1.6rem;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+header .headline{
+	font-size: 32px;
+}
+.nav-list {
+	text-align: right;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+#favorite {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+}
+
+#favorite  p{
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  #9999FF;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 200%;              /* 高さ指定 */
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#favorite p img{
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+#detail {
+    text-align: center;
+}
+
+#detail #map-canvas{
+    display: inline-block;      /* インラインブロック要素にする */
+    padding-left:  20px;              /*余白指定 */
+    height: 50%;              /* 高さ指定 */
+	text-align: left;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#detail #text{
+    display: inline-block;      /* インラインブロック要素にする */
+    padding:  20px;             /* 余白指定 */
+    height: 50%;              /* 高さ指定 */
+	text-align: left;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#detail p{
+    display: inline-block;      /* インラインブロック要素にする */
+    padding:  20px;             /* 余白指定 */
+    height: 50%;              /* 高さ指定 */
+	text-align: left;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#detail p{
+    display: inline-block;      /* インラインブロック要素にする */
+    padding:  20px;             /* 余白指定 */
+    height: 50%;              /* 高さ指定 */
+	text-align: left;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#detail p img{
+	width: 270px;
+	height: 270px;
+	object-fit: cover;
+}
+
+#detail ul{
+	color: #444;
+	font-size: 80%;
+}
+
+#favorite {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+}
+
+#favorite  p{
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  #9999FF;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 200%;              /* 高さ指定 */
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#favorite p img{
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+#syousai{
+  font-size:40px;
+}
+.image {
+  width: 32%;
+  height: 300px;
+  /* object-fit: cover; */
+  object-fit: contain;
+}
+
+#name1{
+  font-size:25px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 20em
+}
+
+#address1,#phone1,#website1{
+  font-size:20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 20em
+
+
+}
+#open1,#open2,#open3,#open4,#open5,#open6,#open7{
+  font-size:20px;
+  display: inline-block;
+  text-align: left;
+  
+}
+
+.kaisha {
+width: 70%;
+width: 80%;
+margin: 0 auto;
+max-width: 800px;
+text-align: center;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: #dedede; 
+}
+
+@media screen and (max-width: 767px) {
+.kaisha,
+.kaisha tr,
+.kaisha td,
+.kaisha th {display:block;}
+.kaisha th {width:auto;}
+}
+
+.btn-circle-flat {
+	display: inline-block;
+	text-decoration: none;
+	background: #8ff7f7;
+	color: #FFF;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+	transition: .4s;
+	font-size: 75%;
+}
+
+.btn-circle-flat:hover {
+	background: #668ad8;
+}
+
+.place{
+	font-size: 160%;
+}
+
+.expository {
+	position: relative;
+	margin: 3em auto;
+	padding: 1.2em 1em 1em;
+	width: 90%;
+	background-color: #f7f7f7; /* BOX背景色 */
+	border: 3px double #999999; /* 枠線の太さ・色 */
+}
+.title {
+	position: absolute;
+	display: inline-block;
+	top: -28px; /*タブ調整 */
+	left: -3px; /*タブ調整 */
+	padding: 0 10px;
+	height: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff; /* タイトル色 */
+	background-color: #a0a0a0; /* タイトル背景色 */
+	border: 1px solid #999999; /* タイトル枠線 */
+	border-radius: 5px 5px 0 0;
+}

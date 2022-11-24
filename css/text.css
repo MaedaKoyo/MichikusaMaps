@@ -1,0 +1,299 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	line-height: 1.6;
+	color: #444;
+}
+
+p {
+	font-size: 200%;
+	margin: 0 0 1.6rem;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+header .headline{
+	font-size: 32px;
+}
+.nav-list {
+	text-align: right;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+#favorite {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+}
+
+#favorite  p{
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  #9999FF;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 200%;              /* 高さ指定 */
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#favorite p img{
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+#detail {
+    text-align: center;
+}
+
+#detail #map-canvas{
+    display: inline-block;      /* インラインブロック要素にする */
+    height: 90%;              /* 高さ指定 */
+	text-align: left;
+	font-size: 25px;
+	color: #FFFFFF;
+    vertical-align: middle;
+}
+
+#detail #text{
+    display: inline-block;      /* インラインブロック要素にする */
+    height: 90%;              /* 高さ指定 */
+	text-align: left;
+	font-size: 25px;
+	color: #FFFFFF;
+    vertical-align: middle;
+}
+
+
+
+#detail ul{
+	color: #444;
+	font-size: 80%;
+}
+
+.p-2{
+	margin: 0.5em;
+}
+
+#p_name{
+	font-size: 85%;
+}
+
+#p_website{
+	font-family: serif;
+	font-size: 65%;
+}
+
+#main p {
+	font-size: 200%;
+	margin: 0 0 1.6rem;
+	text-align: center;
+}
+
+.parent {
+	font-size: 120%;
+	text-align: center;         /* 子要素を左右中央揃えにする */
+	padding:  20px;             /* 余白指定 */
+}
+
+.submain{
+	font-size: 150%;
+	text-align: center;         /* 子要素を左右中央揃えにする */
+	padding:  20px;             /* 余白指定 */
+}
+
+.detail{
+	display: inline-block;      /* インラインブロック要素にする */
+    padding:  20px;             /* 余白指定 */
+    height: 100px;              /* 高さ指定 */
+	box-sizing: border-box;
+}
+
+.detail p{
+	font-size: 150%;
+}
+
+.detail img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.btn-circle-flat {
+	display: inline-block;
+	text-decoration: none;
+	background: #8ff7f7;
+	color: #FFF;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+	transition: .4s;
+	font-size: 75%;
+}
+
+.btn-circle-flat:hover {
+	background: #668ad8;
+}
+
+.place{
+	font-size: 160%;
+}
+
+.expository {
+	position: relative;
+	margin: 3em auto;
+	padding: 1.2em 1em 1em;
+	width: 90%;
+	background-color: #f7f7f7; /* BOX背景色 */
+	border: 3px double #999999; /* 枠線の太さ・色 */
+}
+
+.expository p{
+	font-size: 100%;
+}
+
+.title {
+	position: absolute;
+	display: inline-block;
+	top: -28px; /*タブ調整 */
+	left: -3px; /*タブ調整 */
+	padding: 0 10px;
+	height: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff; /* タイトル色 */
+	background-color: #a0a0a0; /* タイトル背景色 */
+	border: 1px solid #999999; /* タイトル枠線 */
+	border-radius: 5px 5px 0 0;
+}
+
+#table{
+	font-size: 135%;
+}
+
+#syousai{
+  font-size:40px;
+}
+.image {
+  width: 32%;
+  height: 300px;
+  /* object-fit: cover; */
+  object-fit: contain;
+}
+
+#name1{
+  font-size:25px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 20em
+}
+#address1,#phone1,#website1{
+  font-size:20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 20em
+
+}
+#open1,#open2,#open3,#open4,#open5,#open6,#open7{
+  font-size:20px;
+  display: inline-block;
+  text-align: left;
+  
+}
+
+.kaisha {
+width: 70%;
+width: 80%;
+margin: 0 auto;
+max-width: 800px;
+text-align: center;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: #dedede; 
+}
+
+@media screen and (max-width: 767px) {
+.kaisha,
+.kaisha tr,
+.kaisha td,
+.kaisha th {display:block;}
+.kaisha th {width:auto;}
+}
+
+/*detailボタン*/
+.add_favobutton{
+background-color: white;
+  border: 2px solid #333;
+  color: black;
+  line-height: 30px;
+}
+.add_favobutton:hover {
+    background-color: #fff;
+  border-color: #59B1EB;
+  color: #59B1EB;
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.init{
+    background: black;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.init h1{
+    color: #ecf0f1;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 3em;
+}
+
+span{
+    transition: all .3s;
+}
+
+.coloring{
+    color: #812990;
+}
+
+.fadeout {
+    animation : fadeOut 2s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+ul {
+  list-style: none;
+}
